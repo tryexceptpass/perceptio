@@ -21,4 +21,4 @@ Options:
 ## Under the covers
 The default mode for reading data is through the use of numpy .fromfile to load it into memory and generate the image pixels. As you can see from the command line options, I'm experimenting with different modes trying to learn a bit about what could be more performant.
 
-If you find any problems or have a suggestion, feel free to drop an issue I can look at or send a message to @tryexceptpass.
+If you find any problems or have a suggestion, feel free to drop an issue I can look at or send a message to [@tryexceptpass](http://www.twitter.com/tryexceptpass).
