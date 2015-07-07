@@ -7,6 +7,8 @@ This was inspired by the TED talk ["The 1s and 0s behind cyber warfare"](https:/
 Also, because python can do anything! I know there are other tools out there that do something similar, but I didn't find one written in python and I thought it would be a great exercise with which to learn a little numpy and image manipulation.
 
 ## Usage
+**Python 3** is required.
+
 ```
     visualize.py <filename> [--mmap | --np-memmap | --np-fullcolor]
 
