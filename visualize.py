@@ -21,7 +21,7 @@ from docopt import docopt
 from skimage import io
 
 def npfullcolor(path):
-    """Show a square image that represents the speciied file using numpy.memmap"""
+    """Show a square image that represents the specified file using numpy.fromfile"""
 
     data = np.memmap(path, dtype=np.uint32, mode='r')
 
@@ -39,7 +39,7 @@ def npfullcolor(path):
     img.show()
 
 def npmemmaprepresent(path):
-    """Show a square image that represents the speciied file using numpy.memmap"""
+    """Show a square image that represents the specified file using numpy.fromfile"""
 
     data = np.memmap(path, dtype=np.uint8, mode='r')
 
@@ -57,7 +57,7 @@ def npmemmaprepresent(path):
     img.show()
 
 def nprepresent(path):
-    """Show a square image that represents the speciied file using numpy.fromfile"""
+    """Show a square image that represents the specified file using numpy.fromfile"""
 
     data = np.fromfile(path, dtype=np.uint8)
 
